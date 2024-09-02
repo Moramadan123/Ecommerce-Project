@@ -1,0 +1,65 @@
+/* Basic reset */
+body, h2, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav .container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  width: 20%;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
